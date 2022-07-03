@@ -5,12 +5,20 @@ import Snow from "./Snow";
 
 function App() {
   return (
-    <div className="container">
-      <Moon />
-      <Text />
-      <Handle />
-      <Snow />
-    </div>
+    <>
+      <div>
+        <Snow />
+        <p className="small-screen-alert ">
+          This page is not yet maded for small screen devices
+        </p>
+      </div>
+      <div className="container">
+        <Moon />
+        <Text />
+        <Handle />
+        <Snow />
+      </div>
+    </>
   );
 }
 
