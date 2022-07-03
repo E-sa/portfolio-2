@@ -1,0 +1,79 @@
+#moon-circle {
+  width: 14vw;
+  height: 14vw;
+  position: fixed;
+  right: 70px;
+  top: 50px;
+  border-radius: 200px;
+
+  background-color: rgb(211 211 209);
+  -webkit-box-shadow: 10px 10px 300px 42px rgba(141, 141, 168, 1);
+  -moz-box-shadow: 10px 10px 300px 42px rgba(141, 141, 168, 1);
+  box-shadow: 10px 10px 300px 42px rgba(141, 141, 168, 1);
+}
+
+.small-circle {
+  
+  position: relative;
+  background-color: rgb(199, 196, 195);
+  border-radius: 50%;
+  
+  border: 2px inset rgb(246 235 238);
+  border-right: none;
+  border-top: thick;
+  border-bottom: thick;
+
+}
+
+
+#small-circle-one {
+
+  top: 20%;
+  left: 14%;
+  width: 4vw;
+  height: 4vw;
+  transform: rotate(50deg);
+}
+
+#small-circle-two {
+  top: 20%;
+  left: 72%;
+  width: 2.5vw;
+  height: 2.5vw;
+  transform: rotate(208deg);
+}
+
+
+#small-circle-three {
+  top: 24%;
+  left: 20%;
+  width: 2.5vw;
+  height: 2.5vw;
+  transform: rotate(308deg);
+}
+
+#small-circle-four {
+  background-color: rgb(193 193 193);
+  top: -45%;
+  left: 66%;
+  width: 1vw;
+  height: 1vw;
+  border: none;
+}
+
+#small-circle-five {
+  background-color: rgb(193 193 193);
+  top: 1%;
+  left: 48%;
+  width: 1vw;
+  height: 1vw;
+  border: none;
+}
+
+#small-circle-six {
+  top: -37%;
+  left:44%;
+  width: 2.8vw;
+  height: 2.8vw;
+  transform: rotate(141deg);
+}

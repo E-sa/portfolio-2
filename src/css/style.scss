@@ -1,0 +1,27 @@
+@import "moon";
+@import "introduction";
+@import "handle";
+@import "practices";
+@import "snow";
+
+* {
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+}
+
+.container {
+  background-color: rgba(11, 15, 21, 1);   
+  width: 100vw;
+  height: 100vh;
+  overflow: hidden;
+  
+}
+
+.d-none{
+  display: none;
+}
+
+.margin-7{
+  margin: 7px;
+}

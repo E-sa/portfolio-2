@@ -1,0 +1,60 @@
+.practices-container {
+  width: 70vw;
+  display: flex;
+  flex-direction: row;
+  place-content: center;
+  margin-top: 50px;
+  place-content: start;
+}
+
+.practices-items {
+  width: 10%;
+  height: auto;
+
+  border-radius: 6px;
+  padding: 10px;
+
+  transition-property: width;
+  transition-property: height;
+  transform: scale(1);
+  transition: all 2s ease;
+  display: flex;
+  flex-direction: row;
+}
+
+.practices-image {
+  width: 50px;
+
+  border-radius: 6px;
+  border: 3px solid antiquewhite;
+}
+
+.practices-items:hover {
+  width: 300px;
+  height: auto;
+  background: rgb(255, 255, 255);
+  background: linear-gradient(
+    90deg,
+    rgba(255, 255, 255, 1) 0%,
+    rgba(18, 30, 47, 0) 100%
+  );
+}
+
+.practices-items:hover .practices-image {
+  width: 80px;
+}
+
+.one {
+  width: 50%;
+  display: none;
+}
+
+.practices-items:hover .one {
+  display: block;
+}
+
+.git-icon{
+  width: 30px;
+  height: auto;
+  border-radius: 4px;
+}
